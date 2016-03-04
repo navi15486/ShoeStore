@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name":"bata",
+        "category":"sports"
+    },
+    {
+        "id":2,
+        "name":"Leecooper",
+        "category":"sports"
+    },
+    {
+        "id":3,
+        "name":"Nike",
+        "category":"sports"
+    }
+]

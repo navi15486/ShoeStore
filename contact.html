@@ -1,0 +1,51 @@
+
+<!--Contact us from include cantact information-->
+
+<!--<form name= "contactus"  >-->
+<!--<label >First Name</label><input type="text" name = "firstname"/>-->
+<!--<label>Last Name</label><input type="text" name = "lastname"/>-->
+<!--<label>Phone </label><input type="text" name = "phone"/>-->
+<!--<label>Email</label><input type = "type" name = "email" />-->
+<!--<input  class = "submit" type = "submit" name="submit" value = "Submit"/>-->
+<!--<input type = "button" name = "cancel" value= "Cancel">-->
+<!--</form>-->
+
+<div><h1>Contact Us</h1></div>
+
+
+<div ng-app="mainApp" ng-controller="ContactController">
+    <form class="form-horizontal" onsubmit="return validation()" method = "post" action="welcome.php" novalidate>
+        <div class="form-group" id="firstnameError">
+            <label class="col-sm-3 control-label" for="inputWarning"  >FirstName</label>
+        <div class="col-sm-3">
+             <input type="text" class="form-control" ng-model="user.firstName" required><br>
+        </div><br>
+            </div>
+
+        <div class="form-group" id="firstnameError">
+        <label class="col-sm-3 control-label" for="inputWarning"  >LastName</label>
+        <div class="col-sm-3">
+            <input type="text" class="form-control" ng-model="user.lastName" required><br>
+        </div>
+        </div>
+
+        <div class="form-group" id="firstnameError">
+        <label class="col-sm-3 control-label" for="inputWarning"  >Email</label>
+        <div class="col-sm-3">
+            <input type="email" class="form-control" ng-model="user.email" required><br>
+        </div>
+            </div>
+
+        <div class="form-group" id="firstnameError">
+        <label class="col-sm-3 control-label" for="inputWarning"  >Comments</label>
+        <div class="col-sm-3">
+            <textarea name="comments" class="form-control"></textarea>
+        </div>
+            </div>
+
+        <button ng-click="reset()">RESET</button>
+    </form>
+    <!--<p>form = {{user}}</p>-->
+    <!--<p>master = {{master}}</p>-->
+</div>
+

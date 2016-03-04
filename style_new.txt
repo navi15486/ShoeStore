@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document for A-man  */
+/*the most upper id which contains everything, it is like container*/
+#Wrapper
+{
+	width:100% ;
+	height:100%;
+	font-weight:normal;color:#000000;letter-spacing:1pt;word-spacing:1pt;font-size:17px;text-align:left;font-family:georgia, serif;line-height:1;
+
+}
+/*it contains all the the content such as header, body footer*/
+#fullContent
+{
+	width:1050px; height:640px; margin-left: auto; margin-right:auto
+}
+/**/
+#header
+{
+	color:#666633;
+	background-color:#cccc99;
+	width:100%; height: 80px;
+	border:0.2px solid #cccc99;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Old Firefox */
+	box-shadow: 10px 10px 5px #888888;
+	
+	background-image: linear-gradient(top, rgb(255,255,255) 20%, rgb(0,102,255) 85%);
+background-image: -o-linear-gradient(top, rgb(255,255,255) 20%, rgb(0,102,255) 85%);
+background-image: -moz-linear-gradient(top, rgb(255,255,255) 20%, rgb(0,102,255) 85%);
+background-image: -webkit-linear-gradient(top, rgb(255,255,255) 20%, rgb(0,102,255) 85%);
+background-image: -ms-linear-gradient(top, rgb(255,255,255) 20%, rgb(0,102,255) 85%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.2, rgb(255,255,255)),
+	color-stop(0.85, rgb(0,102,255))
+);
+	
+/*	background-image: linear-gradient(bottom, rgb(102,102,51) 19%, rgb(255,255,255) 100%, rgb(102,102,51) 100%);
+background-image: -o-linear-gradient(bottom, rgb(102,102,51) 19%, rgb(255,255,255) 100%, rgb(102,102,51) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(102,102,51) 19%, rgb(255,255,255) 100%, rgb(102,102,51) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(102,102,51) 19%, rgb(255,255,255) 100%, rgb(102,102,51) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(102,102,51) 19%, rgb(255,255,255) 100%, rgb(102,102,51) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.19, rgb(102,102,51)),
+	color-stop(1, rgb(255,255,255)),
+	color-stop(1, rgb(102,102,51))
+);*/
+}
+.right{
+	float:right
+}
+.left{
+	float:left
+}
+/*990033*/
+#content {
+	color: #0066FF;
+	
+	
+}
+
+/*Horizontal menu*/
+#menu
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#ff9900;
+	width:100%;
+	height: 30px;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Old Firefox */
+}
+#menu ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+
+}
+#menu a
+{
+float:left;
+width:6em;
+text-decoration:none;
+color:white;
+background-color:ff9900;
+padding:0.2em 0.6em;
+border-right:1px solid white;
+
+border-radius:10px;
+	-moz-border-radius:10px; /* Old Firefox */
+	
+}
+/*   0066FF    ff3300*/
+#menu a:hover {background-color:#00e6ff;}
+li {display:inline;}
+
+/*footer*/
+#footer {
+	text-align: center;
+	margin-top:10px;
+}
+#footer a{
+color:purple;
+border-right:1px solid white;
+
+}
+img {
+	position:relative;
+	left:400px;
+	margin-bottom:15px;
+	
+}
+
+#leftpanel {
+	width:300px;
+	height:300px;
+	border:1px solid #C0C0C0;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Old Firefox */
+	margin-left:10px;
+	margin-right:10px;
+}
+#leftpanel img{
+	position : relative;
+	left:10px;
+	top:10px
+}
+
+/*css for contact us page*/
+form{
+	margin-top:100px;
+	margin-bottom:100px;
+	width:500px;
+	clear:both;
+}
+
+input{
+	margin-left:100px;
+	
+	
+}
+label{
+	
+	float:left;
+	
+}
+/*to clear the floats*/
+.clear{
+	clear:both;
+}
